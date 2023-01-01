@@ -78,3 +78,32 @@ commit é a forma de salvar um estado ou versão do código
 para criar um repositório de controle de versões
 git init ---bare
 
+lista todos os repositórios remotos que o respositório local conhece
+git remote 
+
+adicionando um repositório remoto
+git remote add + nome do respositório + o diretório do repositório (que pode ser uma pasta do computador, pode ser uma url, um endereço na rede)
+
+verificar o endereço do repositório 
+git remote -v
+
+para clonar o repositório e dar o nome da pasta já na clonagem 
+git clone C:/alura/servidor/ projeto
+
+enviando projeto, quando usamos o -U é que ele sempre envia pro mesmo local de frequência (origin) 
+enviando os dados para um repositório
+git push (nome do local pra onde quero enviar = local) (nome de onde o projeto está atualmente = master)
+
+renomeando um repositório 
+git remote rename + nome atual + nome para redefinir
+
+pegar os dados de um repositório
+git pull local master
+
+adicionando o projeto ao github
+git remote add origin(nome padrão, mas pode ser mudado) https://github.com/samuel-monteiro/alura-git.git
+
+git push -u origin(repositório) master(branch que estou enviando)
+
+enviando projeto 
+git push origin(repositório) master(branch que estou enviando)
