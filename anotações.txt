@@ -1,0 +1,8 @@
+verificar versão do git
+git -v
+git --version
+
+no git bash é possível utilizar os comandos do linux no terminal 
+
+inicializar um respositório no GIT
+git init 
